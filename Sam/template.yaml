@@ -5,9 +5,9 @@ Resources:
   helloworldpython:
     Type: 'AWS::Serverless::Function'
     Properties:
-      CodeUri: Lambdas/
+      CodeUri: ../Lambdas/
       Handler: lbd-fnc-api_get.lambda_handler 
-      Runtime: python3.7
+      Runtime: python3.8
       Description: A starter AWS Lambda function.
       MemorySize: 128
       Timeout: 10
